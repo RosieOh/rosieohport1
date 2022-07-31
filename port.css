@@ -1,0 +1,389 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("coding.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.front_head {
+    margin: -8px;
+    font-family: sans-serif;
+    background: linear-gradient( 100deg, rgba(0, 0, 0, 0.6) 0, rgba(0, 0, 0, 0.6) 0%), url(./img/programming.jpg) 50% no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50%;
+}
+
+.Header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    margin: -15px;
+}
+
+.Header .Header_content {
+    font-family: sans-serif;
+    -webkit-box-sizing: border-box;
+    width: 100%;
+    max-width: 71.25rem;
+    height: 4.5rem;
+    padding: 1.25rem 2rem;
+    margin: auto;
+    color: #fff;
+    padding: calc(2.5rem) 2rem 4rem;
+    cursor: pointer;
+}
+
+.Header .Header_content .Header_title {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2rem;
+}
+
+.Header_navi_1 {
+    font-family: sans-serif;
+    display: inline-flex;
+    padding: 0 1rem;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 2rem;
+    float: right;
+}
+
+.my_content {
+    width: 100%;
+    max-width: 71.25rem;
+    margin: 0 auto;
+    padding: calc(4rem + 4.5rem) 2rem 4rem;
+    text-align: center;
+}
+
+.my_content .my_title {
+    text-align: center;
+    font-family: Black Han Sans, sans-serif;
+    font-size: 4rem;
+    color: #fff;
+    word-break: keep-all;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.my_content .my_divider {
+    width: 6.8rem;
+    height: 0;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    border-top: 0.2rem solid skyblue;
+}
+
+.my_content .my_expectation {
+    margin: 0 auto 2rem;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.my_content .my_find_out {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 10rem;
+    background-color: skyblue;
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #fff;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.about_me {
+    background-color: #fff;
+}
+
+.about_me_content {
+    -webkit-box-sizing: border-box;
+    width: 100%;
+    max-width: 71.25rem;
+    padding: 4rem 2rem;
+    margin: 0 auto;
+}
+
+.about_me_content .section_title {
+    display: table;
+    position: relative;
+    margin: 0 auto 3rem;
+}
+
+.about_me_content .section_title .sectiontitle_text {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    font-family: Black Han Sans;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.about_me_content .sectiontitle_link {
+    position: absolute;
+    top: 50%;
+    left: -1.5rem;
+    -webkit-transform: translateY(-50%);
+    width: 2rem;
+    height: 2rem;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.about_me .about_me_content .about_me_basic {
+    font-family: Noto Sans KR, sans-serif;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+}
+
+.about_me .about_me_content .about_me_basic .about_me_wrapper {
+    font-family: Noto Sans KR, sans-serif;
+    width: 33.3333%;
+    margin-bottom: 2rem;
+}
+
+.about_me .about_me_content .about_me_basic .about_me_wrapper .about_me_information {
+    font-family: Noto Sans KR, sans-serif;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    max-width: 14rem;
+    margin: 0 auto;
+    opacity: 0.8;
+}
+
+.about_me .about_me_content .about_me_basic .about_me_wrapper .about_me_information .about_me_information_img_wrapper {
+    font-family: Noto Sans KR, sans-serif;
+    width: 2rem;
+    min-width: 2rem;
+    height: 2rem;
+    margin-top: 0.2rem;
+    margin-right: 2rem;
+}
+
+.about_me .about_me_content .about_me_basic .about_me_wrapper .about_me_information .about_me_information_img_wrapper .about_me_information_img {
+    font-family: Noto Sans KR, sans-serif;
+    width: 100%;
+}
+
+.about_me .about_me_content .about_me_basic .about_me_wrapper .about_me_information .about_me_information_basic_name {
+    font-family: 배찌체;
+    font-size: large;
+}
+
+.about_me .about_me_content .about_me_basic .about_me_wrapper .about_me_information .about_me_information_basic_name .about_me_information_basic_name_label {
+    font-family: 배찌체;
+    margin-bottom: 0.3rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.skills {
+    font-family: Noto Sans KR, sans-serif;
+    background-color: skyblue;
+}
+
+.skills .skills_content {
+    -webkit-box-sizing: border-box;
+    width: 100%;
+    max-width: 71.25rem;
+    padding: 4rem 2rem;
+    margin: 0 auto;
+    height: 79rem;
+}
+
+.skills .skills_content .skills_content_title {
+    display: table;
+    position: relative;
+    margin: 0 auto 3rem;
+}
+
+.skills .skills_content .skills_content_title .skills_content_title_text {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    font-family: Black Han Sans, sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #fff;
+    border-bottom-color: #000000;
+}
+
+.skills .skills_content .skills_content_title .skills_content_title_link {
+    position: absolute;
+    top: 50%;
+    left: -1.5rem;
+    -webkit-transform: translateY(-50%);
+    width: 2rem;
+    height: 2rem;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.skills .skills_content .skills_content_container {
+    font-family: Noto Sans KR, sans-serif;
+    display: flex;
+    /* flex-flow: column wrap; */
+    align-content: space-between;
+    height: calc(100% - (7.5rem + 1px));
+}
+
+.skills .skills_content .skills_content_container .skills_stack {
+    font-family: Noto Sans KR, sans-serif;
+    flex-flow: column wrap;
+    -webkit-box-sizing: border-box;
+    flex-shrink: 0;
+    width: 17rem;
+    height: 75%;
+    padding: 1.5rem;
+    margin: 0 auto 2rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    -webkit-box-shadow: 1rem 1rem 1rem 0 rgba(68, 68, 68, 0.2);
+    margin-bottom: 0;
+}
+
+.skills .skills_content .skills_content_container .skills_stack .skills_stack_name {
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #ccc;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+}
+
+.skills .skills_content .skills_content_container .skills_stack .skills_stack_img {
+    display: block;
+    width: 100%;
+}
+
+.project {
+    font-family: Noto Sans KR, sans-serif;
+    background-color: #6799ff;
+}
+
+.project .project_content {
+    font-family: Noto Sans KR, sans-serif;
+    -webkit-box-sizing: border-box;
+    width: 100%;
+    max-width: 90rem;
+    padding: 4rem 2rem;
+    margin: 0 auto;
+}
+
+.project .project_content .project_content_title {
+    display: table;
+    position: relative;
+    margin: 0 auto 3rem;
+}
+
+.project .project_content .project_content_title .project_content_title_text {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    font-family: Black Han Sans, sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #fff;
+    border-bottom-color: #000000;
+}
+
+.project .project_content .project_content_title .project_content_title_img {
+    position: absolute;
+    top: 50%;
+    left: -1.5rem;
+    -webkit-transform: translateY(-50%);
+    width: 2rem;
+    height: 2rem;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.project .project_content .project_content_setting {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.project .project_content .project_content_setting .project_content_container {
+    font-family: Noto Sans KR, sans-serif;
+    padding: 3rem;
+    margin: 0 auto 2rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    -webkit-box-shadow: 1rem 1rem 1rem 0 rgba(68, 68, 68, 0.2);
+}
+
+.project .project_content .project_content_setting .project_content_container .project_content_1_title {
+    padding-bottom: 0.5rem;
+    font-family: Black Han Sans;
+    font-weight: 350;
+    font-size: 2.5rem;
+    color: #222;
+    text-align: center;
+}
+
+.project .project_content .project_content_setting .project_content_container .project_content_1_period {
+    margin-bottom: 2rem;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #6c757d;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.project .project_content .project_content_setting .project_content_1_project_view {
+    font-size: 0.75em;
+    font-family: "Malgun Gothic", dotum, sans-serif;
+    list-style: none;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.project .project_content .project_content_setting .project_content_1_project_view .project_content_1_project_view_carousel {
+    margin-right: 5%;
+    width: 47.5%;
+    float: left;
+}
+
+.project .project_content .project_content_setting .project_content_1_project_view .project_content_1_project_view_carousel .project_img1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: middle;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.project .project_content .project_content_setting .project_content_1_project_view .project_description {
+    width: 47.5%;
+    float: left;
+}
+
+.project .project_content .project_content_setting .project_content_1_project_view .project_description .project_main_description {
+    font-family: Noto Sans KR, sans-serif;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
